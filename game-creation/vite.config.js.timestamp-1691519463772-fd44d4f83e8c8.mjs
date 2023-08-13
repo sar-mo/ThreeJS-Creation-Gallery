@@ -1,0 +1,25 @@
+// vite.config.js
+import react from "file:///Users/SarthakMohanty/Desktop/summer/three.js%20journey/54-create-a-game-with-r3f/node_modules/.pnpm/@vitejs+plugin-react@4.0.0_vite@4.3.9/node_modules/@vitejs/plugin-react/dist/index.mjs";
+var isCodeSandbox = "SANDBOX_URL" in process.env || "CODESANDBOX_HOST" in process.env;
+var vite_config_default = {
+  plugins: [
+    react()
+  ],
+  root: "src/",
+  publicDir: "../public/",
+  base: "./",
+  server: {
+    host: true,
+    open: !isCodeSandbox
+    // Open if it's not a CodeSandbox
+  },
+  build: {
+    outDir: "../dist",
+    emptyOutDir: true,
+    sourcemap: true
+  }
+};
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcuanMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCIvVXNlcnMvU2FydGhha01vaGFudHkvRGVza3RvcC9zdW1tZXIvdGhyZWUuanMgam91cm5leS81NC1jcmVhdGUtYS1nYW1lLXdpdGgtcjNmXCI7Y29uc3QgX192aXRlX2luamVjdGVkX29yaWdpbmFsX2ZpbGVuYW1lID0gXCIvVXNlcnMvU2FydGhha01vaGFudHkvRGVza3RvcC9zdW1tZXIvdGhyZWUuanMgam91cm5leS81NC1jcmVhdGUtYS1nYW1lLXdpdGgtcjNmL3ZpdGUuY29uZmlnLmpzXCI7Y29uc3QgX192aXRlX2luamVjdGVkX29yaWdpbmFsX2ltcG9ydF9tZXRhX3VybCA9IFwiZmlsZTovLy9Vc2Vycy9TYXJ0aGFrTW9oYW50eS9EZXNrdG9wL3N1bW1lci90aHJlZS5qcyUyMGpvdXJuZXkvNTQtY3JlYXRlLWEtZ2FtZS13aXRoLXIzZi92aXRlLmNvbmZpZy5qc1wiO2ltcG9ydCByZWFjdCBmcm9tICdAdml0ZWpzL3BsdWdpbi1yZWFjdCdcblxuY29uc3QgaXNDb2RlU2FuZGJveCA9ICdTQU5EQk9YX1VSTCcgaW4gcHJvY2Vzcy5lbnYgfHwgJ0NPREVTQU5EQk9YX0hPU1QnIGluIHByb2Nlc3MuZW52XG5cbmV4cG9ydCBkZWZhdWx0IHtcbiAgICBwbHVnaW5zOlxuICAgIFtcbiAgICAgICAgcmVhY3QoKVxuICAgIF0sXG4gICAgcm9vdDogJ3NyYy8nLFxuICAgIHB1YmxpY0RpcjogXCIuLi9wdWJsaWMvXCIsXG4gICAgYmFzZTogJy4vJyxcbiAgICBzZXJ2ZXI6XG4gICAge1xuICAgICAgICBob3N0OiB0cnVlLFxuICAgICAgICBvcGVuOiAhaXNDb2RlU2FuZGJveCAvLyBPcGVuIGlmIGl0J3Mgbm90IGEgQ29kZVNhbmRib3hcbiAgICB9LFxuICAgIGJ1aWxkOlxuICAgIHtcbiAgICAgICAgb3V0RGlyOiAnLi4vZGlzdCcsXG4gICAgICAgIGVtcHR5T3V0RGlyOiB0cnVlLFxuICAgICAgICBzb3VyY2VtYXA6IHRydWVcbiAgICB9XG59Il0sCiAgIm1hcHBpbmdzIjogIjtBQUFpYSxPQUFPLFdBQVc7QUFFbmIsSUFBTSxnQkFBZ0IsaUJBQWlCLFFBQVEsT0FBTyxzQkFBc0IsUUFBUTtBQUVwRixJQUFPLHNCQUFRO0FBQUEsRUFDWCxTQUNBO0FBQUEsSUFDSSxNQUFNO0FBQUEsRUFDVjtBQUFBLEVBQ0EsTUFBTTtBQUFBLEVBQ04sV0FBVztBQUFBLEVBQ1gsTUFBTTtBQUFBLEVBQ04sUUFDQTtBQUFBLElBQ0ksTUFBTTtBQUFBLElBQ04sTUFBTSxDQUFDO0FBQUE7QUFBQSxFQUNYO0FBQUEsRUFDQSxPQUNBO0FBQUEsSUFDSSxRQUFRO0FBQUEsSUFDUixhQUFhO0FBQUEsSUFDYixXQUFXO0FBQUEsRUFDZjtBQUNKOyIsCiAgIm5hbWVzIjogW10KfQo=
